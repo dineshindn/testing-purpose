@@ -1,0 +1,38 @@
+<mat-toolbar class="navbar">
+  <span>MARVEL</span>
+  <!-- <img ng-src="Images/profile.svg" style="height:130px ; width:180px" class="md-card-image" alt=""> -->
+
+  <nav mat-tab-nav-bar>
+    <a mat-tab-link
+    *ngFor="let link of navLinks"
+    [routerLink]="link.link"
+    routerLinkActive #rla="routerLinkActive"
+    [active]="rla.isActive">
+    {{link.label}}
+    </a>
+  </nav>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
+
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      angular
+    </mat-panel-title>
+   
+  </mat-expansion-panel-header>
+
+  <mat-action-row>
+    <button mat-button>entroll</button>
+  </mat-action-row>
+</mat-expansion-panel>
+
+
+<app-footer></app-footer>
+
+
+  
+
+
+
