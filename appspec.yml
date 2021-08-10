@@ -2,7 +2,7 @@ version: 0.0
 os: ubuntu
 files:
   - source: /
-  destination: /etc/var/www/html/sample
+  destination: /var/www/html/sample
 hooks:
   ApplicationStop:
     - location: scripts/application_stop.sh
