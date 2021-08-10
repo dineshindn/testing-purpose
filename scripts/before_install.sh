@@ -7,8 +7,8 @@ nvm install node
 
 
 #create our working directory if ot doesnt exist
-DIR="/home/ubuntu/express-app"
-if [ -d "$DIR"]; then
+DIR="/home/ubuntu/nodejs-express-app-demo"
+if [ -d "$DIR" ]; then
     echo "${DIR} exists"
 else 
     echo "Creating ${DIR} directory"

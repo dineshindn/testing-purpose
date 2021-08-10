@@ -1,7 +1,7 @@
 #!/bin/bash
-sudo chmod -R 777 /home/ubuntu/express-app
+sudo chmod -R 777 /home/ubuntu/nodejs-express-app-demo
 #navifate into our worling directory where we have all our github files
-cd /home/ubuntu/express-app
+cd /home/ubuntu/nodejs-express-app-demo
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"
@@ -13,3 +13,5 @@ npm install
 
 #start our node app in the background
 node app.js > app.out.log 2> app.err.log < /dev/null &
+
+
