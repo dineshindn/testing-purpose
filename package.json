@@ -1,0 +1,20 @@
+{
+  "name": "testing-purpose",
+  "version": "1.0.0",
+  "description": "This is for practiesing git comments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dineshindn/testing-purpose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dineshindn/testing-purpose/issues"
+  },
+  "homepage": "https://github.com/dineshindn/testing-purpose#readme"
+}
