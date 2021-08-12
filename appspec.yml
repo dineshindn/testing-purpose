@@ -1,5 +1,5 @@
 version: 0.0
-os: ubuntu
+os: linux
 files:
   - source: /
     destination: /var/www/html/
@@ -7,13 +7,13 @@ hooks:
   ApplicationStop:
     - location: scripts/application_stop.sh
       timeout: 300
-      runas: ubuntu
+      runas: linux
   BeforeInstall:
     - location: scripts/before_install.sh
       timeout: 300
-      runas: ubuntu
+      runas: linux
   AllicationStart:
     - location: scripts/application_start.sh
       timeout: 300
-      runas: ubuntu
+      runas: linux
  
